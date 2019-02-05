@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["heading", "body", "html"],
+  "propertyOrder": ["heading", "headingSize", "body", "html"],
   "type": "object",
   "properties": {
     "heading": {
@@ -17,16 +17,13 @@
       "description": "",
       "format": "text",
       "minLength": 0,
-      "maxLength": 6000,
-      "size": {
-        "type": "string",
-        "enum": ["H1", "H2", "H6"],
-        "_label": {
-          "value": "Heading size label",
-          "hint": "Headign size hint "
-        },
-        "_semanticType": "http://semantic-type.cms.amplience.com/enum"
-      }
+      "maxLength": 6000
+    },
+    "headingSize": {
+      "type": "string",
+      "enum": ["h1", "h2", "h3", "h4", "h5", "h6"],
+      "title": "Heading size",
+      "description": ""
     },
     "body": {
       "type": "string",
