@@ -1,6 +1,6 @@
 {
 "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-"id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/text-component.json",
+"id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/textcomponent.json",
 "title": "Text Acclerator",
 "description": "Text Accelerator",
 "allOf": [
