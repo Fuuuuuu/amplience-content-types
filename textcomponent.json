@@ -17,14 +17,17 @@
       "description": "",
       "format": "text",
       "minLength": 0,
-      "maxLength": 6000
+      "maxLength": 6000,
+      "properties": {
+        "headingSize": {
+          "type": "string",
+          "enum": ["h1", "h2", "h3", "h4", "h5", "h6"],
+          "title": "Heading size",
+          "description": ""
+        }
+      }
     },
-    "headingSize": {
-      "type": "string",
-      "enum": ["h1", "h2", "h3", "h4", "h5", "h6"],
-      "title": "Heading size",
-      "description": ""
-    },
+
     "body": {
       "type": "string",
       "title": "Body Text",
