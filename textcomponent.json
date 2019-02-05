@@ -15,7 +15,6 @@
 "properties": {
 "text": {
 "type": "string",
-"format": "markdown",
 "title": "Text",
 "description": "",
 "minLength": 0,
