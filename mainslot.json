@@ -27,7 +27,8 @@
               "contentType": {
                 "title": "Select accelerators content:",
                 "enum": [
-                  "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/textcomponent.json"
+                  "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/textcomponent.json",
+                  "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/leaderboardbannercomponent.json"
                 ]
               }
             }
