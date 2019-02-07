@@ -1,5 +1,5 @@
 {
-  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "$schema": "http://json-schema.org/schema#",
   "id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/leaderboardbannercomponent.json",
   "title": "Leader Board Banner Component",
   "description": "Leader Board Banner Component",
@@ -65,6 +65,6 @@
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
       "title": "CTA Text Colour",
       "description": ""
-    },
+    }
   }
 }
