@@ -32,7 +32,7 @@
     "headingUnderlineColour": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
-      "title": "Heading colour",
+      "title": "Heading underline colour",
       "description": ""
     },
     "body": {
