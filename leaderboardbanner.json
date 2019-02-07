@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/leaderboardbannercomponent.json",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/leaderboardbanner.json",
   "title": "Leader Board Banner Component",
   "description": "Leader Board Banner Component",
   "allOf": [
