@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/schema#",
-  "id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/leaderboardbannercomponent.json",
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/leaderboardbannercomponent.json",
   "title": "Leader Board Banner Component",
   "description": "Leader Board Banner Component",
   "allOf": [
@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["image", "imageAltText", "ctaText", "ctaLink", "ctaType", "ctaAlignment", "ctaForegroundColour", "ctaTextColour"],
+  "propertyOrder": ["image", "imageAltText", "ctaText", "ctaLink"],
   "type": "object",
   "properties": {
     "image": {
@@ -23,48 +23,18 @@
     },
     "imageAltText": {
       "type": "string",
-      "minLength": 0,
-      "maxLength": 150,
       "title": "Image alt text",
       "description": "insert image alt text"
     },
     "ctaText": {
       "type": "string",
-      "minLength": 0,
-      "maxLength": 150,
       "title": "CTA Text",
       "description": "Add CTA Text"
     },
     "ctaLink": {
       "type": "string",
-      "minLength": 0,
-      "maxLength": 150,
       "title": "CTA Link",
       "description": "Add Link for CTA"
-    },
-    "ctaType": {
-      "type": "string",
-      "enum": ["primary", "secondary"],
-      "title": "CTA Type",
-      "description": "e.g. secondary"
-    },
-    "ctaAlignment": {
-      "type": "string",
-      "enum": ["left", "right", "centre"],
-      "title": "CTA Alignment",
-      "description": ""
-    },
-    "ctaForegroundColour": {
-      "type": "string",
-      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
-      "title": "CTA Foreground Colour",
-      "description": ""
-    },
-    "ctaTextColour": {
-      "type": "string",
-      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
-      "title": "CTA Text Colour",
-      "description": ""
     }
   }
 }
