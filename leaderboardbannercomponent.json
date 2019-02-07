@@ -1,0 +1,46 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/leaderboardbannercomponent.json",
+  "title": "Leader Board Banner Component",
+  "description": "Leader Board Banner Component",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": ["image", "imageAltText", "ctaText", "ctaLink"],
+  "type": "object",
+  "properties": {
+    "image": {
+      "title": "Image",
+      "description": "insert an image",
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "imageAltText": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 150,
+      "title": "Image alt text",
+      "description": "insert image alt text"
+    },
+    "ctaText": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 150,
+      "title": "CTA Text",
+      "description": "Add CTA Text"
+    },
+    "ctaLink": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 150,
+      "title": "CTA Link",
+      "description": "Add Link for CTA"
+    }
+  }
+}
