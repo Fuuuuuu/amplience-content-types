@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["image", "imageAltText", "ctaText", "ctaLink"],
+  "propertyOrder": ["image", "imageAltText", "ctaText", "ctaLink", "ctaType", "ctaAlignment", "ctaForegroundColour", "ctaTextColour"],
   "type": "object",
   "properties": {
     "image": {
@@ -41,6 +41,30 @@
       "maxLength": 150,
       "title": "CTA Link",
       "description": "Add Link for CTA"
-    }
+    },
+    "ctaType": {
+      "type": "string",
+      "enum": ["primary", "secondary"],
+      "title": "CTA Type",
+      "description": "e.g. secondary"
+    },
+    "ctaAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "centre"],
+      "title": "CTA Alignment",
+      "description": ""
+    },
+    "ctaForegroundColour": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Foreground Colour",
+      "description": ""
+    },
+    "ctaTextColour": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Text Colour",
+      "description": ""
+    },
   }
 }
