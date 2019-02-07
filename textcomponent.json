@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["heading","headingSize","headingAlignment","headingColour","body","bodyAlignment","bodyColumns","html"],
+  "propertyOrder": ["heading","headingSize","headingAlignment","headingUnderlineColour","body","bodyAlignment","bodyColumns","html"],
   "type": "object",
   "properties": {
     "heading": {
@@ -29,7 +29,7 @@
       "title": "Heading horizontal alignment",
       "description": ""
     },
-    "headingColour": {
+    "headingUnderlineColour": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
       "title": "Heading colour",
