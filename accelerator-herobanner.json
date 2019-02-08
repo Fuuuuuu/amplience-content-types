@@ -1,0 +1,22 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-herobanner.json",
+  "title": "Hero Banner Accelerator",
+  "description": "Hero Banner Accelerator",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": ["heading"],
+  "type": "object",
+  "properties": {
+    "heading": {
+      "type": "string",
+      "title": "Heading Text",
+      "description": "",
+      "format": "text"
+    }
+
+  }
+}
