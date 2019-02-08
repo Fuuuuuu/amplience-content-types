@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/mainslot.json",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/ampallaccelerators.json",
   "title": "All accelerators",
   "description": "All accelerators",
   "allOf": [
@@ -27,8 +27,8 @@
               "contentType": {
                 "title": "Select accelerators content:",
                 "enum": [
-                  "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/textcomponent.json",
-                  "https://raw.githubusercontent.com/lukaszpietraszek/amplience-content-types/master/leaderboardbannercomponent.json"
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/amptextcomponent.json",
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/ampleaderboardbanner.json"
                 ]
               }
             }
