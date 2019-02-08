@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["heading"],
+  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox", "textBoxAlignment", "ctaText", "ctaLink", "ctaType"],
   "type": "object",
   "properties": {
      "image": {
@@ -56,7 +56,7 @@
       "title": "Text box horizontal alignment",
       "description": ""
     },
-        "ctaText": {
+    "ctaText": {
       "type": "string",
       "title": "CTA Text",
       "description": "Add CTA Text"
