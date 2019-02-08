@@ -42,6 +42,12 @@
       "title": "CTA Type",
       "description": ""
     },
+    "ctaAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "CTA Alignment",
+      "description": ""
+    },
     "ctaForeground ": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
