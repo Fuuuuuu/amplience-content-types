@@ -27,8 +27,8 @@
               "contentType": {
                 "title": "Select accelerators content:",
                 "enum": [
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/amptextcomponent.json",
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/ampleaderboardbanner.json"
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-text.json",
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-leaderboardbanner.json"
                 ]
               }
             }
