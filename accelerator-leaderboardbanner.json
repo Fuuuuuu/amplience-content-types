@@ -41,6 +41,18 @@
       "enum": ["primary", "secondary"],
       "title": "CTA Type",
       "description": ""
+    },
+    "ctaForeground ": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Foreground ",
+      "description": "Text colour"
+    },
+    "ctaBackground": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Background",
+      "description": "Button colour"
     }
   }
 }
