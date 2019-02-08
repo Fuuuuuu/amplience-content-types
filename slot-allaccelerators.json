@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/slotallaccelerators.json",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/slot-allaccelerators.json",
   "title": "All accelerators",
   "description": "All accelerators",
   "allOf": [
