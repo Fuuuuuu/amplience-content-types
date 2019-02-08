@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox", "textBoxAlignment", "ctaText", "ctaLink", "ctaType"],
+  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox", "ctaText", "ctaLink", "ctaType"],
   "type": "object",
   "properties": {
      "image": {
@@ -71,12 +71,6 @@
       "enum": ["primary", "secondary"],
       "title": "CTA Type",
       "description": ""
-    },
-    "ctaAlignment": {
-      "type": "string",
-      "enum": ["left", "right", "center"],
-      "title": "CTA Alignment",
-      "description": "left, right or center"
     },
     "ctaForeground ": {
       "type": "string",
