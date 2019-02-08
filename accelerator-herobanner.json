@@ -11,12 +11,84 @@
   "propertyOrder": ["heading"],
   "type": "object",
   "properties": {
+     "image": {
+      "title": "Image",
+      "description": "insert an image",
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "imageAltText": {
+      "type": "string",
+      "title": "Image alt text",
+      "description": "insert image alt text"
+    },
     "heading": {
       "type": "string",
       "title": "Heading Text",
       "description": "",
       "format": "text"
+    },
+    "headingAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Heading horizontal alignment",
+      "description": ""
+    },
+    "headingUnderlineColour": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "Heading underline colour",
+      "description": ""
+    },
+    "textBox": {
+      "type": "string",
+      "title": "Text box",
+      "description": "",
+      "format": "text"
+    },
+     "textBoxAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Text box horizontal alignment",
+      "description": ""
+    },
+        "ctaText": {
+      "type": "string",
+      "title": "CTA Text",
+      "description": "Add CTA Text"
+    },
+    "ctaLink": {
+      "type": "string",
+      "title": "CTA Link",
+      "description": "Add Link for CTA"
+    },
+    "ctaType": {
+      "type": "string",
+      "enum": ["primary", "secondary"],
+      "title": "CTA Type",
+      "description": ""
+    },
+    "ctaAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "CTA Alignment",
+      "description": "left, right or center"
+    },
+    "ctaForeground ": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Foreground ",
+      "description": "Text colour"
+    },
+    "ctaBackground": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Background",
+      "description": "Button colour"
     }
-
   }
 }
