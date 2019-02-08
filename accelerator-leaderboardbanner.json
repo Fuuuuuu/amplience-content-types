@@ -35,7 +35,13 @@
       "type": "string",
       "title": "CTA Link",
       "description": "Add Link for CTA"
-    }
+    },
+    "ctaType": {
+      "type": "string",
+      "enum": ["primary", "secondary"],
+      "title": "CTA Type",
+      "description": ""
+    },
   }
 }
 
