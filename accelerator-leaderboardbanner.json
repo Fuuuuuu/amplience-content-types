@@ -41,7 +41,7 @@
       "enum": ["primary", "secondary"],
       "title": "CTA Type",
       "description": ""
-    },
+    }
   }
 }
 
