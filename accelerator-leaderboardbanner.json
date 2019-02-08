@@ -46,7 +46,7 @@
       "type": "string",
       "enum": ["left", "right", "center"],
       "title": "CTA Alignment",
-      "description": ""
+      "description": "left, right or center"
     },
     "ctaForeground ": {
       "type": "string",
