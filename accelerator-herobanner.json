@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox", "ctaText", "ctaLink", "ctaType"],
+  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox","textBoxAlignment","textAlignment", "ctaText", "ctaLink", "ctaType"],
   "type": "object",
   "properties": {
      "image": {
@@ -56,6 +56,12 @@
       "type": "string",
       "enum": ["left", "right", "center"],
       "title": "Text box horizontal alignment",
+      "description": ""
+    },
+    "textAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Text horizontal alignment",
       "description": ""
     },
     "ctaText": {
