@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox","textBoxAlignment","textAlignment", "ctaText", "ctaLink", "ctaType"],
+  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox","textBoxAlignment","textAlignment", "ctaText", "ctaLink", "ctaType", "ctaForeground", "ctaBackground"],
   "type": "object",
   "properties": {
      "image": {
