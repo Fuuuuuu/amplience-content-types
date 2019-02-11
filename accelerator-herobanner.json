@@ -80,7 +80,7 @@
       "title": "CTA Type",
       "description": ""
     },
-    "ctaForeground ": {
+    "ctaForeground": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
       "title": "CTA Foreground ",
