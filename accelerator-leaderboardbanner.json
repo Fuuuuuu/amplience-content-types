@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["image", "imageAltText", "ctaText", "ctaLink", "ctaType", "ctaAlignment", "ctaForeground", "ctaBackground"],
+  "propertyOrder": ["image", "imageAltText", "ctaText", "ctaLink", "ctaType", "ctaAlignment", "ctaForegroundColour", "ctaBackgroundColour"],
   "type": "object",
   "properties": {
     "image": {
@@ -48,13 +48,13 @@
       "title": "CTA Alignment",
       "description": "left, right or center"
     },
-    "ctaForeground ": {
+    "ctaForegroundColour": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
       "title": "CTA Foreground ",
       "description": "Text colour"
     },
-    "ctaBackground": {
+    "ctaBackgroundColour": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
       "title": "CTA Background",
