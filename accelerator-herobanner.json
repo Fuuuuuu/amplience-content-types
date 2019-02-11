@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox","textBoxAlignment","textAlignment", "ctaText", "ctaLink", "ctaType", "ctaForeground", "ctaBackground"],
+  "propertyOrder": ["image", "imageAltText","heading", "headingAlignment", "headingUnderlineColour", "textBox","textBoxAlignment","textAlignment","ctaText","ctaLink","ctaType","ctaBackgroundColour","ctaForegroundColour"],
   "type": "object",
   "properties": {
      "image": {
@@ -80,13 +80,13 @@
       "title": "CTA Type",
       "description": ""
     },
-    "ctaForeground": {
+    "ctaForegroundColour": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
       "title": "CTA Foreground ",
       "description": "Text colour"
     },
-    "ctaBackground": {
+    "ctaBackgroundColour": {
       "type": "string",
       "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
       "title": "CTA Background",
