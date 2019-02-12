@@ -1,0 +1,45 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card-list.json",
+  "title": "Card List Component",
+  "description": "Card List Component",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "chooser": {
+      "title": "List of Card Components",
+      "description": "Add card list components",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Select card component",
+        "description": "t",
+        "allOf": [
+          {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          {
+            "properties": {
+              "contentType": {
+                "title": "Select accelerators content:",
+                "enum": [
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card.json"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "listLayout": {
+      "type": "string",
+      "enum": ["50-50", "33-33-33"],
+      "title": "Choose list layout",
+      "description": ""
+    }
+  }
+}
