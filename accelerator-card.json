@@ -48,9 +48,7 @@
       "type": "string",
       "title": "Body text",
       "description": "",
-      "format": "text",
-      "minLength": 0,
-      "maxLength": 100
+      "format": "text"
     },
     "bodyTextAlignment": {
       "type": "string",
