@@ -29,7 +29,8 @@
                 "enum": [
                   "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-text.json",
                   "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-leaderboardbanner.json",
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-herobanner.json"
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-herobanner.json",
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card.json"
                 ]
               }
             }
