@@ -37,7 +37,7 @@
     "mediaAlignment": {
       "title": "Media (video or image) horizontal alignment",
       "type": "string",
-      "enum": ["left", "right", "center"],
+      "enum": ["left", "right"],
       "description": ""
     },
     "imageAltText": {
