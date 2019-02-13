@@ -29,8 +29,8 @@
       "format": "text"
     },
    "videoUri": {
-    "title": "Video link",
-    "description": "Absolute link to video",
+    "title": "Video ID",
+    "description": "provide video Id",
     "format": "text",
     "type": "string"
     },
