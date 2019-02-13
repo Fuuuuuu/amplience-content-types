@@ -21,15 +21,18 @@
         }
       ]
     },
-    "video": {
-      "title": "Video",
-      "description": "Insert a video",
-      "type": "object",
-      "anyOf": [
-        {
-          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/video-link"
-        }
-      ]
+    "videoType": {
+      "title": "Video Type",
+      "description": "Amplience Video, YouTube, Vimeo, Facebook",
+      "format": "text",
+      "type": "string",
+      "enum": ["amplience", "youtube", "vimeo", "facebook"],
+    },
+   "videoUri": {
+      "title": "Video link",
+      "description": "Absolute link to video",
+      "format": "text",
+      "type": "string"
     },
     "mediaAlignment": {
       "type": "string",
