@@ -1,0 +1,82 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-splitblock.json",
+  "title": "Split Block Accelerator",
+  "description": "Split Block Accelerator",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": ["video","image","imageAltText","mediaAlignment","heading","headingAlignment","headingUnderlineColour","bodyText","bodyTextAlignment","splitLayout"],
+  "type": "object",
+  "properties": {
+    "image": {
+      "title": "Image",
+      "description": "Insert an image",
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "video": {
+      "title": "Video",
+      "description": "Insert a video",
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/video-link"
+        }
+      ]
+    },
+    "mediaAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Media (video or image) horizontal alignment",
+      "description": ""
+    },
+    "imageAltText": {
+      "type": "string",
+      "title": "Image alt text",
+      "description": "insert image alt text"
+    },
+    "heading": {
+      "type": "string",
+      "title": "Heading Text",
+      "description": "",
+      "format": "text"
+    },
+    "headingAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Heading horizontal alignment",
+      "description": ""
+    },
+    "headingUnderlineColour": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "Heading underline colour",
+      "description": ""
+    },
+    "bodyText": {
+      "type": "string",
+      "title": "Body text",
+      "description": "",
+      "format": "text"
+    },
+    "bodyTextAlignment": {
+      "type": "string",
+      "enum": ["left", "right", "center"],
+      "title": "Body text horizontal alignment",
+      "description": ""
+    },
+    "splitLayout": {
+      "type": "string",
+      "enum": ["50-50", "70-30", "30-70"],
+      "title": "Split component",
+      "description": "Choose how the component will be splited between text and media"
+    }
+  }
+}
