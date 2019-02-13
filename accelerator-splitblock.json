@@ -21,19 +21,6 @@
         }
       ]
     },
-    "videoType": {
-      "title": "Video Type",
-      "enum": ["amplience", "youtube", "vimeo", "facebook"],
-      "description": "Amplience Video, YouTube, Vimeo, Facebook",
-      "format": "text",
-      "type": "string"
-    },
-   "videoUri": {
-      "title": "Video link",
-      "description": "Absolute link to video",
-      "format": "text",
-      "type": "string"
-    },
     "mediaAlignment": {
       "title": "Media (video or image) horizontal alignment",
       "type": "string",
@@ -79,7 +66,7 @@
       "type": "string",
       "enum": ["50-50", "70-30", "30-70"],
       "title": "Split component",
-      "description": "Choose how the component will be splited between text and media"
+      "description": "Choose how the component will be split between text and media"
     }
   }
 }
