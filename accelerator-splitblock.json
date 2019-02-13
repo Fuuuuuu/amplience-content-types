@@ -21,6 +21,12 @@
         }
       ]
     },
+   "videoUri": {
+    "title": "Video link",
+    "description": "Absolute link to video",
+    "format": "text",
+    "type": "string"
+    },
     "mediaAlignment": {
       "title": "Media (video or image) horizontal alignment",
       "type": "string",
