@@ -8,32 +8,9 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["chooser", "image", "imageAltText", "mediaAlignment", "heading", "headingAlignment", "headingUnderlineColour", "bodyText", "bodyTextAlignment", "splitLayout"],
+  "propertyOrder": ["videoType", "videoUri", "image", "imageAltText", "mediaAlignment", "heading", "headingAlignment", "headingUnderlineColour", "bodyText", "bodyTextAlignment", "splitLayout"],
   "type": "object",
   "properties": {
-    "chooser": {
-      "title": "Array of content-items",
-      "description": "A chooser list",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "title": "Chooser list",
-        "description": "A chooser list",
-        "allOf": [
-          {
-            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
-          },
-          {
-            "properties": {
-              "contentType": {
-                "title": "Select accelerators content:",
-                "enum": ["https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json"]
-              }
-            }
-          }
-        ]
-      }
-    },
     "image": {
       "title": "Image",
       "description": "Insert an image",
@@ -43,6 +20,19 @@
           "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
         }
       ]
+    },
+    "videoType": {
+      "type": "string",
+      "title": "Video Type",
+      "enum": ["amplience", "youtube", "vimeo", "facebook"],
+      "description": "Amplience Video, YouTube, Vimeo, Facebook",
+      "format": "text"
+    },
+    "videoUri": {
+      "title": "Video ID",
+      "description": "provide video Id",
+      "format": "text",
+      "type": "string"
     },
     "mediaAlignment": {
       "title": "Media (video or image) horizontal alignment",
