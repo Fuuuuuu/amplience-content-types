@@ -8,18 +8,31 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["video","image","imageAltText","mediaAlignment","heading","headingAlignment","headingUnderlineColour","bodyText","bodyTextAlignment","splitLayout"],
+  "propertyOrder": ["chooser", "image", "imageAltText", "mediaAlignment", "heading", "headingAlignment", "headingUnderlineColour", "bodyText", "bodyTextAlignment", "splitLayout"],
   "type": "object",
   "properties": {
-     "video": {
-      "title": "Video",
-      "description": "Insert video",
-      "type": "object",
-      "anyOf": [
-        {
-          "$ref": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json"
-        }
-      ]
+    "chooser": {
+      "title": "Array of content-items",
+      "description": "A chooser list",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Chooser list",
+        "description": "A chooser list",
+        "allOf": [
+          {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          {
+            "properties": {
+              "contentType": {
+                "title": "Select accelerators content:",
+                "enum": ["https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json"]
+              }
+            }
+          }
+        ]
+      }
     },
     "image": {
       "title": "Image",
