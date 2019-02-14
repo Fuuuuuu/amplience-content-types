@@ -17,7 +17,7 @@
       "type": "object",
       "anyOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video"
+          "$ref": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json"
         }
       ]
     },
