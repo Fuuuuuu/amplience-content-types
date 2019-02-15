@@ -38,6 +38,13 @@
       "format": "text",
       "type": "string"
     },
+    "fs": {
+      "title": "Full screen",
+      "description": "Display full screen button",
+      "enum": ["true", "false"],
+      "format": "text",
+      "type": "string"
+    }
      "mute": {
       "title": "Mute video",
       "description": "Do you want to mute video?",
