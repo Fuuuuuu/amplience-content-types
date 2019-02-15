@@ -23,6 +23,27 @@
       "description": "provide video Id",
       "format": "text",
       "type": "string"
+    },
+    "playerControls": {
+      "title": "Player Controls",
+      "description": "Show/hide player controls",
+      "enum": ["show", "hide"],
+      "format": "text",
+      "type": "string"
+    },
+    "autoplay": {
+      "title": "Auto play",
+      "description": "Do you want video to play on page load?",
+      "enum": ["true", "false"],
+      "format": "text",
+      "type": "string"
+    },
+     "mute": {
+      "title": "Mute video",
+      "description": "Do you want to mute video?",
+      "enum": ["true", "false"],
+      "format": "text",
+      "type": "string"
     }
   }
 }
