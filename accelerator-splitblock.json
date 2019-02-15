@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["videoType", "videoUri", "image", "imageAltText", "mediaAlignment", "heading", "headingAlignment", "headingUnderlineColour", "bodyText", "bodyTextAlignment", "splitLayout"],
+  "propertyOrder": ["videoType", "videoId", "image", "imageAltText", "mediaAlignment", "heading", "headingAlignment", "headingUnderlineColour", "bodyText", "bodyTextAlignment", "splitLayout"],
   "type": "object",
   "properties": {
     "image": {
@@ -28,7 +28,7 @@
       "description": "Amplience Video, YouTube, Vimeo, Facebook",
       "format": "text"
     },
-    "videoUri": {
+    "videoId": {
       "title": "Video ID",
       "description": "provide video Id",
       "format": "text",
