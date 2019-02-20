@@ -46,7 +46,7 @@
       "type": "string"
     },
      "unmute": {
-      "title": "Mute video",
+      "title": "Un-mute video",
       "description": "By default video will be muted",
       "enum": ["true", "false"],
       "format": "text",
