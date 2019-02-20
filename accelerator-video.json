@@ -34,7 +34,7 @@
     "autoplay": {
       "title": "Auto play",
       "description": "Do you want video to play on page load?",
-      "enum": ["true",
+      "enum": ["true"],
       "format": "text",
       "type": "string"
     },
