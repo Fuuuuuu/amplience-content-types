@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["videoType", "videoUri", "playerControls","autoplay", "fs","mute"],
+  "propertyOrder": ["videoType", "videoUri", "playerControls","autoplay", "fs","unmute"],
   "type": "object",
   "properties": {
     "videoType": {
@@ -45,9 +45,9 @@
       "format": "text",
       "type": "string"
     },
-     "mute": {
+     "unmute": {
       "title": "Mute video",
-      "description": "Do you want to mute video?",
+      "description": "By default video will be muted",
       "enum": ["true", "false"],
       "format": "text",
       "type": "string"
