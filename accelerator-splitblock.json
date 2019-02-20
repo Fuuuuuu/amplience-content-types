@@ -34,6 +34,41 @@
       "format": "text",
       "type": "string"
     },
+    "playerControls": {
+      "title": "Player Controls",
+      "description": "Show/hide player controls",
+      "enum": ["show"],
+      "format": "text",
+      "type": "string"
+    },
+    "autoplay": {
+      "title": "Auto play",
+      "description": "Do you want video to play on page load?",
+      "enum": ["true"],
+      "format": "text",
+      "type": "string"
+    },
+    "fs": {
+      "title": "Full screen",
+      "description": "Display full screen button",
+      "enum": ["true"],
+      "format": "text",
+      "type": "string"
+    },
+     "unmute": {
+      "title": "Un-mute video",
+      "description": "By default video will be muted",
+      "enum": ["true"],
+      "format": "text",
+      "type": "string"
+    },
+    "related": {
+      "title": "Related videos",
+      "description": "Show related videos? By default set to false",
+      "enum": ["true"],
+      "format": "text",
+      "type": "string"
+    },
     "mediaAlignment": {
       "title": "Media (video or image) horizontal alignment",
       "type": "string",
