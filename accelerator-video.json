@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["videoType", "videoUri", "playerControls","autoplay", "fs","unmute"],
+  "propertyOrder": ["videoType", "videoUri", "playerControls","autoplay", "fs","unmute", "related"],
   "type": "object",
   "properties": {
     "videoType": {
@@ -48,6 +48,13 @@
      "unmute": {
       "title": "Un-mute video",
       "description": "By default video will be muted",
+      "enum": ["true", "false"],
+      "format": "text",
+      "type": "string"
+    },
+    "related": {
+      "title": "Related videos",
+      "description": "Show related videos? By default set to false",
       "enum": ["true", "false"],
       "format": "text",
       "type": "string"
