@@ -27,8 +27,15 @@
               "contentType": {
                 "title": "Select accelerators content:",
                 "enum": ["https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion-tab.json"]
+              },
+              "id": {
+                "type": "string"
               }
-            }
+            },
+            "required": [
+              "contentType",
+              "id"
+            ]
           }
         ]
       }
