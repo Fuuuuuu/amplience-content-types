@@ -8,7 +8,6 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["accordionId","chooser"],
   "type": "object",
   "properties": {
     "accordionId": {
