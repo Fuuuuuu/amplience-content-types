@@ -8,12 +8,18 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["heading"],
+  "propertyOrder": ["heading", "bodyText"],
   "type": "object",
   "properties": {
     "heading": {
       "type": "string",
       "title": "Heading Text",
+      "description": "",
+      "format": "text"
+    },
+    "bodyText": {
+      "type": "string",
+      "title": "Body Text",
       "description": "",
       "format": "text"
     }
