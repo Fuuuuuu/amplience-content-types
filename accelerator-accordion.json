@@ -12,7 +12,10 @@
   "type": "object",
   "properties": {
     "id": {
-      "type": "string"
+      "type": "string",
+      "title": "Accoriond ID",
+      "description": "This field is required",
+      "format": "text"
     },
     "chooser": {
       "title": "List of Card Components",
