@@ -1,0 +1,37 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion.json",
+  "title": "Accordion",
+  "description": "Accordion",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "chooser": {
+      "title": "List of Card Components",
+      "description": "Add card list components",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Select card component",
+        "description": "t",
+        "allOf": [
+          {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+          },
+          {
+            "properties": {
+              "contentType": {
+                "title": "Select accelerators content:",
+                "enum": ["https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion-tab.json"]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
