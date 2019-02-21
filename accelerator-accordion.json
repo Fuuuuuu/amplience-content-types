@@ -9,6 +9,7 @@
     }
   ],
   "type": "object",
+  "propertiesOrder": ["accordionId", "chooser"]
   "properties": {
     "accordionId": {
       "type": "string",
@@ -23,7 +24,7 @@
       "items": {
         "type": "object",
         "title": "Select card component",
-        "description": "t",
+        "description": "",
         "allOf": [
           {
             "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
