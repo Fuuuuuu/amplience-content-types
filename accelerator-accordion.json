@@ -8,10 +8,10 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["id","chooser"],
+  "propertyOrder": ["accordionId","chooser"],
   "type": "object",
   "properties": {
-    "id": {
+    "accordionId": {
       "type": "string",
       "title": "Accoriond ID",
       "description": "This field is required",
