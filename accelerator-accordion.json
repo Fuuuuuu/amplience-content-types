@@ -8,6 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
+  "propertyOrder": ["id","chooser"],
   "type": "object",
   "properties": {
     "id": {
