@@ -1,0 +1,21 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion-tab.json",
+  "title": "Accordion Tab Component",
+  "description": "Accordion Tab Component",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": ["heading"],
+  "type": "object",
+  "properties": {
+    "heading": {
+      "type": "string",
+      "title": "Heading Text",
+      "description": "",
+      "format": "text"
+    }
+  }
+}
