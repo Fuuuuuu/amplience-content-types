@@ -29,6 +29,34 @@
       "enum": ["true"],
       "description": "By default accordion will be collapsed",
       "format": "text"
+    },
+    "ctaText": {
+      "type": "string",
+      "title": "CTA Text",
+      "description": "Add CTA Text"
+    },
+    "ctaLink": {
+      "type": "string",
+      "title": "CTA Link",
+      "description": "Add Link for CTA"
+    },
+    "ctaType": {
+      "type": "string",
+      "enum": ["primary", "secondary"],
+      "title": "CTA Type",
+      "description": ""
+    },
+    "ctaForegroundColour": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Foreground ",
+      "description": "Text colour"
+    },
+    "ctaBackgroundColour": {
+      "type": "string",
+      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+      "title": "CTA Background",
+      "description": "Button colour"
     }
   }
 }
