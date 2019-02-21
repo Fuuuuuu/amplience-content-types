@@ -9,7 +9,7 @@
     }
   ],
   "type": "object",
-  "propertiesOrder": ["accordionId", "chooser"]
+  "propertiesOrder": ["accordionId", "chooser"],
   "properties": {
     "accordionId": {
       "type": "string",
