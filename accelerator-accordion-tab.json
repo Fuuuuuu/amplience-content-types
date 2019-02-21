@@ -28,6 +28,6 @@
       "enum": ["true"],
       "title": "Expanded",
       "description": "By default accordion is collapsed"
-    },
+    }
   }
 }
