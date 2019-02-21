@@ -1,62 +1,66 @@
 {
-  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion-tab.json",
-  "title": "Accordion Tab Component",
-  "description": "Accordion Tab Component",
-  "allOf": [
-    {
-      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
-    }
-  ],
-  "propertyOrder": ["heading", "bodyText", "expanded", "ctaText", "ctaLink", "ctaType", "ctaForegroundColour", "ctaBackgroundColour"],
-  "type": "object",
-  "properties": {
-    "heading": {
-      "type": "string",
-      "title": "Heading Text",
-      "description": "",
-      "format": "text"
-    },
-    "bodyText": {
-      "type": "string",
-      "title": "Body Text",
-      "description": "",
-      "format": "text"
-    },
-    "expanded": {
-      "type": "string",
-      "title": "Expanded?",
-      "enum": ["true"],
-      "description": "By default accordion will be collapsed",
-      "format": "text"
-    },
-    "ctaText": {
-      "type": "string",
-      "title": "CTA Text",
-      "description": "Add CTA Text"
-    },
-    "ctaLink": {
-      "type": "string",
-      "title": "CTA Link",
-      "description": "Add Link for CTA"
-    },
-    "ctaType": {
-      "type": "string",
-      "enum": ["primary", "secondary"],
-      "title": "CTA Type",
-      "description": ""
-    },
-    "ctaForegroundColour": {
-      "type": "string",
-      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
-      "title": "CTA Foreground ",
-      "description": "Text colour"
-    },
-    "ctaBackgroundColour": {
-      "type": "string",
-      "enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
-      "title": "CTA Background",
-      "description": "Button colour"
-    }
-  }
+	"$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+	"id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion-tab.json",
+	"title": "Accordion Tab Component",
+	"description": "Accordion Tab Component",
+	"allOf": [{
+		"$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+	}],
+	"propertyOrder": ["heading", "headingIcon", "bodyText", "expanded", "ctaText", "ctaLink", "ctaType", "ctaForegroundColour", "ctaBackgroundColour"],
+	"type": "object",
+	"properties": {
+		"heading": {
+			"type": "string",
+			"title": "Heading Text",
+			"description": "",
+			"format": "text"
+		},
+		"headingIcon": {
+			"type": "string",
+			"enum": ["email", "microwave", "oven"],
+			"title": "Heading icon",
+			"description": "Icon will appear to the left of the heading"
+		},
+		"bodyText": {
+			"type": "string",
+			"title": "Body Text",
+			"description": "",
+			"format": "text"
+		},
+		"expanded": {
+			"type": "string",
+			"title": "Expanded?",
+			"enum": ["true"],
+			"description": "By default accordion will be collapsed",
+			"format": "text"
+		},
+		"ctaText": {
+			"type": "string",
+			"title": "CTA Text",
+			"description": "Add CTA Text"
+		},
+		"ctaLink": {
+			"type": "string",
+			"title": "CTA Link",
+			"description": "Add Link for CTA"
+		},
+		"ctaType": {
+			"type": "string",
+			"enum": ["primary", "secondary"],
+			"title": "CTA Type",
+			"description": ""
+		},
+		"ctaForegroundColour": {
+			"type": "string",
+			"enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+			"title": "CTA Foreground ",
+			"description": "Text colour"
+		},
+		"ctaBackgroundColour": {
+			"type": "string",
+			"enum": ["green", "dark-green", "red", "white", "blue-gray", "dark-gray", "aa-gray", "light-gray", "purple", "blue", "dark-purple"],
+			"title": "CTA Background",
+			"description": "Button colour"
+		}
+	}
 }
