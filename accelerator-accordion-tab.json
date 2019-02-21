@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["heading", "headingIcon", "bodyText", "expanded", "ctaText", "ctaLink", "ctaType", "ctaForegroundColour", "ctaBackgroundColour"],
+  "propertyOrder": ["heading", "bodyText", "expanded", "ctaText", "ctaLink", "ctaType", "ctaForegroundColour", "ctaBackgroundColour"],
   "type": "object",
   "properties": {
     "heading": {
@@ -16,12 +16,6 @@
       "title": "Heading Text",
       "description": "",
       "format": "text"
-    },
-    "headingIcon": {
-      "type": "string",
-      "enum": ["email", "microwave", "oven"],
-      "title": "Heading icon",
-      "description": "Icon will appear to the left of the heading"
     },
     "bodyText": {
       "type": "string",
