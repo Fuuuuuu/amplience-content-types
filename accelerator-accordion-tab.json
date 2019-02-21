@@ -22,7 +22,7 @@
       "enum": ["email", "microwave", "oven"],
       "title": "Heading icon",
       "description": "Icon will appear to the left of the heading"
-    }
+    },
     "bodyText": {
       "type": "string",
       "title": "Body Text",
