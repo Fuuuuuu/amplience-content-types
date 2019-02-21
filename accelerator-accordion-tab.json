@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["heading", "bodyText", "expanded"],
+  "propertyOrder": ["heading", "bodyText"],
   "type": "object",
   "properties": {
     "heading": {
@@ -22,12 +22,6 @@
       "title": "Body text",
       "description": "",
       "format": "text"
-    },
-    "expanded": {
-      "type": "string",
-      "enum": ["true"],
-      "title": "Expanded",
-      "description": "By default accordion is collapsed"
     }
   }
 }
