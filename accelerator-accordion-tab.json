@@ -22,6 +22,13 @@
       "title": "Body Text",
       "description": "",
       "format": "text"
+    },
+    "expanded": {
+      "type": "string",
+      "title": "Expanded?",
+      "enum": ["true"],
+      "description": "By default accordion will be collapsed",
+      "format": "text"
     }
   }
 }
