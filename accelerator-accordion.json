@@ -10,6 +10,9 @@
   ],
   "type": "object",
   "properties": {
+    "id": {
+      "type": "string"
+    },
     "chooser": {
       "title": "List of Card Components",
       "description": "Add card list components",
@@ -27,18 +30,15 @@
               "contentType": {
                 "title": "Select accelerators content:",
                 "enum": ["https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion-tab.json"]
-              },
-              "id": {
-                "type": "string"
               }
-            },
-            "required": [
-              "contentType",
-              "id"
-            ]
+            }
           }
         ]
       }
     }
-  }
+  },
+  "required": [
+    "contentType",
+    "id"
+  ]
 }
