@@ -33,7 +33,8 @@
                   "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card-list.json",
                   "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-splitblock.json",
                   "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json",
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion.json"
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-accordion.json",
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-slider.json"
                 ]
               }
             }
