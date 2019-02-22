@@ -9,7 +9,7 @@
     }
   ],
   "type": "object",
-  "propertyOrder": ["sliderId", "autoplay", "chooser"],
+  "propertyOrder": ["sliderId", "autoplay", "slideRate", "chooser"],
   "properties": {
     "sliderId": {
       "type": "string",
