@@ -1,0 +1,25 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card.json",
+  "title": "Slider item",
+  "description": "Slider item",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": ["image"],
+  "type": "object",
+  "properties": {
+    "image": {
+      "title": "Image",
+      "description": "Insert an image",
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    }
+  }
+}
