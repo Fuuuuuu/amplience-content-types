@@ -16,7 +16,7 @@
       "title": "Slider ID",
       "description": "This field is required",
       "format": "text",
-      "pattern": "^[A-Za-z0-9 ]*$"
+      "pattern": "^[A-Za-z0-9]*$"
     },
     "autoplay": {
       "type": "string",
