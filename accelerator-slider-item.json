@@ -29,9 +29,9 @@
               "contentType": {
                 "title": "Select accelerators content:",
                 "enum": [
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-leaderboardbanner.json",
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-image.json",
                   "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json",
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-image.json"
+                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-herobanner.json"
                 ]
               }
             }
