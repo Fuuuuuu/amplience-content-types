@@ -10,32 +10,13 @@
   ],
   "type": "object",
   "properties": {
-    "chooser": {
-      "title": "Select component",
-      "description": "A chooser list: image, video or banner",
-      "type": "array",
-      "items": {
-        "type": "object",
-        "title": "Chooser list",
-        "description": "A chooser list",
-        "allOf": [
-          {
-            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
-          },
-          {
-            "properties": {
-              "contentType": {
-                "title": "Select accelerators content:",
-                "enum": [
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-leaderboardbanner.json",
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json",
-                  "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-image.json"
-                ]
-              }
-            }
-          }
-        ]
-      }
+    "contentType": {
+      "title": "Select accelerators content:",
+      "enum": [
+        "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-leaderboardbanner.json",
+        "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-video.json",
+        "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-image.json"
+      ]
     }
   }
 }
