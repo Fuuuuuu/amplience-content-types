@@ -17,7 +17,7 @@
 		},
 		"headingIcon": {
 			"type": "string",
-			"enum": ["email", "microwave", "oven","question"],
+			"enum": ["email", "microwave", "oven", "question"],
 			"title": "Heading icon",
 			"description": "Icon will appear to the left of the heading"
 		},
