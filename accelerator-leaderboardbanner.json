@@ -38,7 +38,7 @@
     },
     "ctaType": {
       "type": "string",
-      "enum": ["primary", "secondary"],
+      "enum": ["primary", "secondary", "download"],
       "title": "CTA Type",
       "description": ""
     },
