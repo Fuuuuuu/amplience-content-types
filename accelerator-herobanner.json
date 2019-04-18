@@ -13,7 +13,17 @@
   "properties": {
      "image": {
       "title": "Image",
-      "description": "insert an image",
+      "description": "Insert an image",
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
+        }
+      ]
+    },
+    "imageMobile": {
+      "title": "Mobile Image",
+      "description": "Insert an image",
       "type": "object",
       "anyOf": [
         {
