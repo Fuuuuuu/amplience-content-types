@@ -14,8 +14,9 @@
     "accordionId": {
       "type": "string",
       "title": "Accoriond ID",
-      "description": "This field is required",
-      "format": "text"
+      "description": "This field is required. Single word without special characters",
+      "format": "text",
+      "pattern": "^[a-zA-Z0-9]*$"
     },
     "chooser": {
       "title": "List of Card Components",
