@@ -57,7 +57,7 @@
       "type": "string",
       "title": "HTML Text",
       "type": "string",
-      "format": "markdown"
+      "format": "markdown",
       "description": ""
     }
   }
