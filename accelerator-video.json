@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["videoType", "videoUri", "playerControls","autoplay", "fs","unmute", "related"],
+  "propertyOrder": ["videoType","videoUri","video","playerControls","autoplay","fs","unmute","related"],
   "type": "object",
   "properties": {
     "videoType": {
