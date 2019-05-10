@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card.json",
+  "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card-item.json",
   "title": "Card Accelerator",
   "description": "Cardr Accelerator",
   "allOf": [
