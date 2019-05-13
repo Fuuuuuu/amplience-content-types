@@ -102,7 +102,7 @@
       "type": "string",
       "title": "Body text",
       "description": "",
-      "format": "text"
+      "format": "markdown"
     },
     "bodyTextAlignment": {
       "type": "string",
