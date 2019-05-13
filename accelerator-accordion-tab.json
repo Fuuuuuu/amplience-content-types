@@ -25,7 +25,7 @@
 			"type": "string",
 			"title": "Body Text",
 			"description": "",
-			"format": "text"
+			"format": "markdown"
 		},
 		"expanded": {
 			"type": "string",
