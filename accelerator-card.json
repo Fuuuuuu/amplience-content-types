@@ -2,7 +2,7 @@
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
   "id": "https://raw.githubusercontent.com/brakesdev/amplience-content-types/master/accelerator-card.json",
   "title": "Card Accelerator",
-  "description": "Cardr Accelerator",
+  "description": "Card Accelerator",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -48,7 +48,7 @@
       "type": "string",
       "title": "Body text",
       "description": "",
-      "format": "text",
+      "format": "markdown",
       "minLength": 0,
       "maxLength": 250
     },
