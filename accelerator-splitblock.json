@@ -8,7 +8,7 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": ["videoType", "videoId", "image", "imageAltText", "mediaAlignment", "heading", "headingAlignment", "headingUnderlineColour", "bodyText", "bodyTextAlignment", "splitLayout"],
+  "propertyOrder": ["videoType", "videoId","video", "image", "imageAltText", "mediaAlignment", "heading", "headingAlignment", "headingUnderlineColour", "bodyText", "bodyTextAlignment", "splitLayout"],
   "type": "object",
   "properties": {
     "image": {
@@ -33,6 +33,16 @@
       "description": "provide video Id",
       "format": "text",
       "type": "string"
+    },
+    "video": {
+      "title": "Ampliance video",
+      "description": "Select Ampliance video",
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/video-link"
+        }
+      ]
     },
     "playerControls": {
       "title": "Player Controls",
