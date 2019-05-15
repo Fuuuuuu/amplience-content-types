@@ -20,7 +20,7 @@
     },
     "videoId": {
       "title": "Video ID",
-      "description": "provide video Id",
+      "description": "Provide video Id - for YouTube, Vimeo or Facebook only. For Amplience use Amplice video chooser.",
       "format": "text",
       "type": "string"
     },
