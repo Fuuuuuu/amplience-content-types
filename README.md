@@ -1,0 +1,1 @@
+# amplience-content-types
